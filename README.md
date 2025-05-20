@@ -166,6 +166,7 @@ https://www.aalpha.net/articles/how-to-choose-a-best-tech-stack-for-saas-develop
 
 Mastering Scalability: Essential SaaS Application Architecture Diagram -
 https://karadigital.co/blog/saas-application-architecture-diagram/
+
 Front-end frameworks popularity (React, Vue, Angular and Svelte) · GitHub
 https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190
 
