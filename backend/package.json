@@ -18,6 +18,9 @@
     "mongoose": "^8.14.3"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "autoprefixer": "^10.4.21",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
   }
 }

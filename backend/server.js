@@ -13,6 +13,15 @@ app.use('/api/tasks', taskRoutes);
 const authRoutes = require('./routes/auth');
 app.use('/api/auth', authRoutes);
 
+const adminRoutes = require('./routes/admin');
+app.use('/api/admin', adminRoutes);
+
+const extensionRoutes = require('./routes/extensions');
+app.use('/api/extensions', extensionRoutes);
+
+const pageRoutes = require('./routes/pages');
+app.use('/api/pages', pageRoutes);
+
 const PORT = process.env.PORT || 5000;
 
 // Kết nối MongoDB Atlas

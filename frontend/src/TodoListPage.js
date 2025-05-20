@@ -69,28 +69,40 @@ function TodoListPage() {
   };
 
   return (
-    <div>
-      <h2>To-Do List</h2>
-      <button onClick={handleLogout}>Đăng xuất</button>
-      <form onSubmit={handleAdd}>
+    <div style={{ maxWidth: 500, margin: '40px auto', padding: 20, border: '1px solid #ccc', borderRadius: 8 }}>
+      <h2>Quản lý công việc</h2>
+      <form onSubmit={handleAdd} style={{ marginBottom: 20 }}>
         <input
           type="text"
-          placeholder="Thêm việc mới..."
+          placeholder="Thêm công việc mới"
           value={title}
           onChange={e => setTitle(e.target.value)}
           required
+          style={{ width: '70%', marginRight: 8 }}
         />
         <button type="submit">Thêm</button>
       </form>
       {error && <p style={{ color: 'red' }}>{error}</p>}
-      <ul>
+      <ul style={{ listStyle: 'none', padding: 0 }}>
+        {tasks.length === 0 && <li>Chưa có công việc nào.</li>}
         {tasks.map(task => (
-          <li key={task._id} style={{ textDecoration: task.completed ? 'line-through' : 'none' }}>
-            <span onClick={() => handleToggle(task._id, task.completed)} style={{ cursor: 'pointer' }}>{task.title}</span>
+          <li key={task._id} style={{ marginBottom: 10, display: 'flex', alignItems: 'center' }}>
+            <input
+              type="checkbox"
+              checked={task.completed}
+              onChange={() => handleToggle(task._id, task.completed)}
+              style={{ marginRight: 8 }}
+            />
+            <span style={{ textDecoration: task.completed ? 'line-through' : 'none', flex: 1 }}>
+              {task.title}
+            </span>
             <button onClick={() => handleDelete(task._id)} style={{ marginLeft: 8 }}>Xóa</button>
           </li>
         ))}
       </ul>
+      <button onClick={() => { localStorage.removeItem('token'); navigate('/login'); }} style={{ marginTop: 20 }}>
+        Đăng xuất
+      </button>
     </div>
   );
 }
