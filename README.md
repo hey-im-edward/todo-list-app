@@ -160,27 +160,38 @@ cấp bối cảnh về xu hướng công nghệ năm 2024-2025 và phương ph�
 -------------------------------------------------------------------------------------------------------
 Productivity Management Software Market Size Report, 2030
 https://www.grandviewresearch.com/industry-analysis/productivity-management-software-market
+
 SaaS Tech Stack - Every CTO Should Know in 2025 : Aalpha
 https://www.aalpha.net/articles/how-to-choose-a-best-tech-stack-for-saas-development/
+
 Mastering Scalability: Essential SaaS Application Architecture Diagram -
 https://karadigital.co/blog/saas-application-architecture-diagram/
 Front-end frameworks popularity (React, Vue, Angular and Svelte) · GitHub
 https://gist.github.com/tkrotoff/b1caa4c3a185629299ec234d2314e190
+
 The Best 7 Frontend Frameworks for Developers in 2025
 https://www.wearedevelopers.com/magazine/best-frontend-frameworks-for-developers
+
 Tailwind CSS vs Bootstrap: Which is Better for 2024?
 https://www.loopple.com/blog/tailwind-css-vs-bootstrap/
+
 Technology | 2024 Stack Overflow Developer Survey
 https://survey.stackoverflow.co/2024/technology
+
 Node.js vs. Django: Which is Better in 2025? - Flatirons
 https://flatirons.com/blog/nodejs-vs-django-which-is-better-2024/
+
 Best Tech Stack to Build a SaaS in 2025 | Top Tools and Technologies
 https://ardas-it.com/best-tech-stack-to-build-a-saas
+
 OAuth and JWT: How To Use Together + Best Practices — WorkOS
 https://workos.com/blog/oauth-and-jwt-how-to-use-and-best-practices
+
 Password Storage - OWASP Cheat Sheet Series
 https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html
+
 SaaS tech stack recommendations actual in 2025
 https://www.vallettasoftware.com/pillars/saas-tech-stack
+
 Flutter vs React Native: Complete 2025 Framework Comparison Guide | Blog
 https://www.thedroidsonroids.com/blog/flutter-vs-react-native-comparison
