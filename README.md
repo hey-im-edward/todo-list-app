@@ -91,7 +91,6 @@ dõi hệ thống (monitoring) với các công cụ như Grafana/Prometheus ho�
 hiện nhanh lỗi hoặc tình trạng server quá tải.
 
 3. Đa nền tảng (Windows, macOS, Linux, iOS, Android)
-4. 
 Để phục vụ đa thiết bị, nên thiết kế frontend linh hoạt và có thể tái sử dụng mã:
 Web và PWA: Bắt đầu với ứng dụng web responsive, hoặc Progressive Web App (PWA) để có thể
 cài đặt trên điện thoại như một app đơn giản. PWA cho phép chạy offline ở mức độ nhất định và
